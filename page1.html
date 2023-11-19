@@ -20,14 +20,15 @@
             <option value="class2">Première</option>
             <option value="class1">Terminale</option>
         </select>
-
+        <div>
         <h2>Select Your Packs:</h2>
 
-        <input type="checkbox" id="pack1" name="pack1" data-price="10.99">
+        <input type="checkbox" id="pack1" name="pack1" data-price="9.99">
         <label for="pack1">Cheap - 9.99€</label>
 
-        <input type="checkbox" id="pack2" name="pack2" data-price="15.99">
+        <input type="checkbox" id="pack2" name="pack2" data-price="19.99">
         <label for="pack2">Standard - 19.99€</label>
+    </div>
 
         <!-- Add more packs as needed -->
 
@@ -36,7 +37,7 @@
         <div id="cart">
             <h2>Shopping Cart</h2>
             <ul id="cartItems"></ul>
-            <p>Total: $<span id="totalPrice">0.00</span></p>
+            <p>Total:  € <span id="totalPrice"></span></p>
         </div>
         <button id="closePageBtn" onclick="closeAndReturn()">Close Page</button>
     </div>

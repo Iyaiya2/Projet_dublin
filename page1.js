@@ -30,7 +30,7 @@ function addToCart() {
     cartItems.innerHTML = '';
     shoppingCart.forEach(function (item) {
         var listItem = document.createElement('li');
-        listItem.textContent = item.name + ' - $' + item.price.toFixed(2);
+        listItem.textContent = item.name + ' -  €' + item.price.toFixed(2);
         cartItems.appendChild(listItem);
         totalPrice += item.price;
     });
