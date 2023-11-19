@@ -7,8 +7,11 @@
 body {
 	margin: 0;
 	font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
-	background: #0074b8;
+	background-image: url('img/fond.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
 }
+
 
 .forms-section {
 	display: flex;
