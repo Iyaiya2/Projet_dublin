@@ -14,12 +14,23 @@ header {
 
 .logo {
     max-width: 100%;
-    height: 155px;
+    height: 270px;
     text-align: center;
 }
 
 .login{
-    text-align: right;
+    width: 50px;
+    display: flex;
+    justify-content: right;
+    padding-left: 1300px;
+}
+
+.cart-container{
+    height: 0%;
+    width: 50px;
+    display: flex;
+    justify-content: right;
+    padding-left: 1300px;
 }
 
 .price-banner {

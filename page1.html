@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Choose Your Class</title>
+    <link rel="stylesheet" href="page1.css">
 </head>
 <body>
-    <h1>Choise you class</h1>
+    <div class="container">
+        <h1>Choose Your Class</h1>
+
+        <label for="classSelect">Select Your Class:</label>
+        <select id="classSelect">
+            <option value="class1">6iem</option>
+            <option value="class2">5iem</option>
+            <option value="class1">4iem</option>
+            <option value="class2">3iem</option>
+            <option value="class1">Seconde</option>
+            <option value="class2">Première</option>
+            <option value="class1">Terminale</option>
+        </select>
+
+        <h2>Select Your Packs:</h2>
+
+        <input type="checkbox" id="pack1" name="pack1" data-price="10.99">
+        <label for="pack1">Cheap - 9.99€</label>
+
+        <input type="checkbox" id="pack2" name="pack2" data-price="15.99">
+        <label for="pack2">Standard - 19.99€</label>
+
+        <!-- Add more packs as needed -->
+
+        <button onclick="addToCart()">Add to Cart</button>
+
+        <div id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: $<span id="totalPrice">0.00</span></p>
+        </div>
+        <button id="closePageBtn" onclick="closeAndReturn()">Close Page</button>
+    </div>
+
+    <script src="page1.js"></script>
 </body>
 </html>
