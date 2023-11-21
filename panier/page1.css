@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('img/college.webp'); /* Remplacez 'path/to/background-image.jpg' par le chemin de votre image de fond */
+    background-image: url('college.webp'); /* Remplacez 'path/to/background-image.jpg' par le chemin de votre image de fond */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

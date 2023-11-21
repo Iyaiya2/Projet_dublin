@@ -7,7 +7,7 @@
 body {
 	margin: 0;
 	font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
-	background-image: url('img/fond.jpg');
+	background-image: url('fond.jpg');
     background-repeat: no-repeat;
 	background-size: cover;
 }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="page1.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" style="text-align: c;">
         <h1>Choose Your Class</h1>
 
         <label for="classSelect">Select Your Class:</label>
@@ -24,15 +24,13 @@
         <h2>Select Your Packs:</h2>
 
         <input type="checkbox" id="pack1" name="pack1" data-price="9.99">
-        <label for="pack1">Cheap - 9.99€</label>
+        <label for="pack1">Cheap - 9.99€<br>Online courses & books</label>
 
         <input type="checkbox" id="pack2" name="pack2" data-price="19.99">
-        <label for="pack2">Standard - 19.99€</label>
+        <label for="pack2">Standard - 19.99€<br>All the packs</label>
     </div>
 
-        <!-- Add more packs as needed -->
-
-        <button onclick="addToCart()">Add to Cart</button>
+        <button onclick="addToCart()" style="text-align: center;">Add to Cart</button>
 
         <div id="cart">
             <h2>Shopping Cart</h2>
