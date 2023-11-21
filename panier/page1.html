@@ -30,14 +30,16 @@
         <label for="pack2">Standard - 19.99€<br>All the packs</label>
     </div>
 
-        <button onclick="addToCart()" style="text-align: center;">Add to Cart</button>
+        <button onclick="addToCart()">Add to Cart</button>
 
         <div id="cart">
             <h2>Shopping Cart</h2>
             <ul id="cartItems"></ul>
             <p>Total:  € <span id="totalPrice"></span></p>
         </div>
-        <button id="closePageBtn" onclick="closeAndReturn()">Close Page</button>
+        <a href="../index.html">
+            <button id="closePageBtn">Close Page</button>
+        </a>
     </div>
 
     <script src="page1.js"></script>

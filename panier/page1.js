@@ -39,7 +39,3 @@ function addToCart() {
     totalPriceElement.textContent = totalPrice.toFixed(2);
 }
 
-
-function closeAndReturn() {;
-    window.location.href = 'index.html';
-}
